@@ -1,0 +1,197 @@
+.entrance {
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 0.5;
+}
+.divider {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.entrancetext {
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 99;
+}
+
+.first {
+    animation-name: textintro;
+    animation-duration: 3s;
+    animation-play-state:running;
+    opacity: 0;
+}
+
+.secnd {
+    animation-name: textintro2;
+    animation-duration: 6s;
+    animation-play-state:running;
+}
+
+@keyframes textintro {
+    0% {opacity: 0;}
+    50% {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+@keyframes textintro2 {
+    0% {opacity: 0;}
+    50% {opacity: 0;}
+    75% {opacity: 1;}
+    100% {opacity: 1;}
+}
+#heropar {
+    position: absolute;
+    z-index: -1;
+    left: -250px;
+    top: -50%;
+}
+
+.holder {
+    position: absolute;
+    left: -50%;
+    top: -50%;
+    transform: translate(-50%,-50%);
+    animation-name: holder; 
+    animation-duration: 3s;
+    animation-play-state: running;
+}
+
+.heroimg {
+    opacity: 1;
+    float: left;
+    display: fixed;
+}
+
+
+.heroimg1 {
+    background: rgb(208, 198, 181);
+    width: 200px;
+    height: 400px;
+    border-radius: 10px;
+    transform: translate(250px, 150px);
+    position: absolute;
+    transition: 0.5s;
+    animation-name: heroimgfade6;
+    animation-delay: 3s;
+    animation-duration: 1.5s;
+    animation-play-state: running;
+}
+
+.heroimg2 {
+    background: rgb(208, 198, 181);
+    width: 200px;
+    height: 400px;
+    border-radius: 10px;
+    transform: translate(850px, 190px);
+    position: absolute;
+    transition: 0.5s;
+    animation-name: heroimgfade7;
+    animation-delay: 3s;
+    animation-duration: 1.5s;
+    animation-play-state: running;
+}
+
+.heroimg3 {
+    background: rgb(208, 198, 181);
+    width: 200px;
+    height: 400px;
+    border-radius: 10px;
+    transform: translate(550px, 500px);
+    position: absolute;
+    animation-name: heroimgfade6;
+    animation-delay: 3s;
+    animation-duration: 1.5s;
+    animation-play-state: running;
+}
+
+.heroimg4 {
+    background: rgb(208, 198, 181);
+    width: 200px;
+    height: 400px;
+    border-radius: 10px;
+    transform: translate(1550px, 300px);
+    position: absolute;
+    animation-name: heroimgfade7;
+    animation-delay: 3s;
+    animation-duration: 1.5s;
+    animation-play-state: running;
+}
+
+.heroimg5 {
+    background: rgb(208, 198, 181);
+    width: 200px;
+    height: 400px;
+    border-radius: 10px;
+    transform: translate(1150px, 600px);
+    position: absolute;
+    animation-name: heroimgfade7;
+    animation-delay: 3s;
+    animation-duration: 1.5s;
+    animation-play-state: running;
+}
+
+.heroimg6 {
+    background: rgb(208, 198, 181);
+    width: 200px;
+    height: 400px;
+    border-radius: 10px;
+    transform: translate(150px, 700px);
+    position: absolute;
+    animation-name: heroimgfade7;
+    animation-delay: 3s;
+    animation-duration: 1.5s;
+    animation-play-state: running;
+}
+
+.heroimg7 {
+    background: rgb(208, 198, 181);
+    width: 200px;
+    height: 400px;
+    border-radius: 10px;
+    transform: translate(1250px, 10px);
+    position: absolute;
+    transition: 0.5s;
+    animation-name: heroimgfade6;
+    animation-delay: 3s;
+    animation-duration: 1.5s;
+    animation-play-state: running;
+}
+
+.heroimg8 {
+    background: rgb(208, 198, 181);
+    width: 200px;
+    height: 400px;
+    border-radius: 10px;
+    transform: translate(850px, 850px);
+    position: absolute;
+    transition: 0.5s;
+    animation-name: heroimgfade6;
+    animation-delay: 3s;
+    animation-duration: 1.5s;
+    animation-play-state: running;
+}
+
+@keyframes heroimgfade7 {
+    0% {opacity: 0; height: 350px;}
+    10% {opacity: 0; height: 350px;}
+    100% {opacity: 1; height: 400px;}
+}
+
+@keyframes heroimgfade6 {
+    0% {opacity: 0; height: 350px;}
+    50% {opacity: 0; height: 350px;}
+    100% {opacity: 1; height: 400px;}
+}
+
+@keyframes holder {
+    0% {opacity: 0;}
+    100% {opacity: 0;}
+}
