@@ -195,3 +195,9 @@
     0% {opacity: 0;}
     100% {opacity: 0;}
 }
+
+
+@media only screen and (max-width: 875px) {
+    .entrancetext {font-size: 30px; width: 80%; text-align: center;}
+    .entrance {width:100%;}
+}
